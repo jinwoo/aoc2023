@@ -14,6 +14,7 @@
 */
 
 :- use_module(day01).
+:- use_module(day02).
 
 :- initialization(main, main).
 
@@ -45,3 +46,4 @@ solve(Day) :-
 %% Solvers.
 
 solver(1, day01_solve).
+solver(2, day02_solve).
