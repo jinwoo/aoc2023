@@ -13,7 +13,7 @@
       ./main.pl 1 5 25
 */
 
-:- use_module([day01, day02, day03, day04]).
+:- use_module([day01, day02, day03, day04, day05]).
 
 :- initialization(main, main).
 
@@ -48,3 +48,4 @@ solver(1, day01_solve).
 solver(2, day02_solve).
 solver(3, day03_solve).
 solver(4, day04_solve).
+solver(5, day05_solve).
