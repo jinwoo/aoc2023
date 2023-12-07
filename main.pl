@@ -14,7 +14,7 @@
 */
 
 :- use_module([day01, day02, day03, day04, day05]).
-:- use_module([day06]).
+:- use_module([day06, day07]).
 
 :- initialization(main, main).
 
@@ -51,3 +51,4 @@ solver(3, day03_solve).
 solver(4, day04_solve).
 solver(5, day05_solve).
 solver(6, day06_solve).
+solver(7, day07_solve).
